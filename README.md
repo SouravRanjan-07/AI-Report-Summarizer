@@ -1,10 +1,10 @@
-# 🧠 Medical Report Simplifier
+# Medical Report Simplifier
 
 An AI-powered web application that extracts, interprets, and simplifies medical reports using **OCR (Optical Character Recognition)** and **Google Gemini LLM**.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 The **Medical Report Simplifier** is designed to make complex medical reports easy to understand for patients.
 You can upload a scanned image or PDF of a report, and the system:
@@ -13,37 +13,37 @@ You can upload a scanned image or PDF of a report, and the system:
 2. **Processes and normalizes** the extracted data using the **Gemini Large Language Model**.
 3. **Presents the data** in a structured, readable, and human-friendly summary.
 
-💡 Example:
+ Example:
 If you upload a _Kidney Function Test (KFT)_ report —
 the system identifies all parameters (like Urea, Creatinine, Sodium, etc.),
 highlights what’s normal or abnormal, and explains the findings in simple words.
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
-### 🖥️ Frontend
+### Frontend
 
 - **React.js (Vite)** – Modern fast frontend framework
 - **Material-UI (MUI)** – For responsive, clean UI
 - **Axios** – For making API calls to backend
 
-### ⚙️ Backend
+###  Backend
 
 - **FastAPI (Python)** – High-performance API framework
 - **Google Generative AI (Gemini API)** – For text understanding and summarization
 - **pytesseract / easyocr** – For OCR-based text extraction
 - **dotenv** – For securely loading environment variables
 
-### 🧠 AI Model
+###  AI Model
 
 - **Gemini 2.5 Flash / Pro** – Used to normalize and interpret medical text
 
 ---
 
-## 🏗️ Architecture / Workflow
+## Architecture / Workflow
 
-Here’s the full **data flow** of the project 👇
+Here’s the full **data flow** of the project �
 
 ```
 [ User Uploads Medical Report (PDF/JPG/PNG) ]
@@ -74,7 +74,7 @@ Here’s the full **data flow** of the project 👇
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ### 🔹 Backend (FastAPI)
 
@@ -93,7 +93,7 @@ python_service/
 └── .gitignore
 ```
 
-### 🔹 Frontend (React + Vite)
+###  Frontend (React + Vite)
 
 ```
 frontend/
@@ -113,9 +113,9 @@ frontend/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 🧩 Backend Setup
+###  Backend Setup
 
 1. Navigate to backend folder
 
@@ -148,11 +148,11 @@ frontend/
    uvicorn main:app --reload
    ```
 
-   ✅ Backend will run at: `http://localhost:8000`
+    Backend will run at: `http://localhost:8000`
 
 ---
 
-### 🖥️ Frontend Setup
+###  Frontend Setup
 
 1. Navigate to frontend folder
 
@@ -172,7 +172,7 @@ frontend/
    npm run dev
    ```
 
-   ✅ Frontend will run at: `http://localhost:5173`
+    Frontend will run at: `http://localhost:5173`
 
 ---
 
@@ -208,15 +208,15 @@ Uploads a medical report file and returns structured + simplified output.
 
 ---
 
-## 🧠 Features
+##  Features
 
-✅ Upload medical reports (image, PDF, or text)
-✅ OCR text extraction
-✅ Automatic data structuring (test name, value, reference range)
-✅ Gemini-based AI interpretation
-✅ Clear summary with normal/abnormal highlights
-✅ Frontend-backend integration
-✅ Modern responsive UI
+ Upload medical reports (image, PDF, or text)
+ OCR text extraction
+ Automatic data structuring (test name, value, reference range)
+ Gemini-based AI interpretation
+ Clear summary with normal/abnormal highlights
+ Frontend-backend integration
+ Modern responsive UI
 
 ---
 
@@ -226,7 +226,7 @@ Uploads a medical report file and returns structured + simplified output.
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 | Key              | Description                       |
 | ---------------- | --------------------------------- |
@@ -244,14 +244,10 @@ Uploads a medical report file and returns structured + simplified output.
 
 ---
 
-## 🤝 Contributors
+## Contributors
 
 - **Sourav Ranjan Nayak** — Developer & Project Creator
 
 ---
 
-## 🧭 License
 
-This project is licensed under the **MIT License** — feel free to use and modify.
-
----
